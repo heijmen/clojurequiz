@@ -5,7 +5,7 @@
 (defpartial layout [& content]
             (html5
               [:head
-               [:title "myporject"]
+               [:title "Quiz"]
                (include-css "/css/reset.css")
                (include-css "checkers.css")
                (include-js "/js/checkers.js")]

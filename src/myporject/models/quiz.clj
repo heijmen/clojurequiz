@@ -1,6 +1,8 @@
 (ns myporject.models.quiz)
 
-(def quiz [{:question "Aparte text" :answer "a" :a "Apart antwoord text" :b "antwoord b"} {:question "Testvraag3" :answer "a" :a "antwoord a" :b "antwoord b"} {:question "Testvraag4" :answer "a" :a "ahallo" :b "antwoord b"}])
+(def quiz
+  [{:question "Wie is de oprichter van facebook?" :answer "a" :a "Mark Zuckerberg" :b "Google"} {:question "Waar bevindt het hoofdkwartier van Facebook zich?" :answer "b" :a "New York" :b "Palo Alto"} {:question "Sinds wanneer is er een Nederlandstalige facebook-versie?" :answer "a" :a "2008" :b "2009"}]
+  )
 
 
 (defn winner? [antwoorda antwoordb antwoordc]

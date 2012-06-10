@@ -16,3 +16,49 @@
 	border : 2px solid blue;
 	border-radius : 5px 5px 5px 5px;
 }
+
+.trTitle {
+	font-weight: bolder;
+	}
+.trWidth {
+	width: 10px;
+	}
+
+.header {
+	font-family: "Courier New", Courier, mono;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 25px;
+}
+
+.quizheader{
+	font-family: "Courier New", Courier, mono;
+	font-size: 23px;
+	font-weight: bolder;
+	text-align: center;
+	margin: 25px 35px 25px 0;
+	}
+
+.center {
+	text-align: center;
+}
+
+.divCenter{
+	margin: 0px auto;
+	width: 450px;
+	}
+
+.footer {
+   border-top: solid 1px black;
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+   background:#919191;
+   text-align: center;
+}
+
+.verticalcenter{
+	margin-top: 15px;
+	}
