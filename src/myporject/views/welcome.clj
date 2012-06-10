@@ -81,6 +81,6 @@
             (html [:p.header "Welkom op onze quizsite!"]
                   [:p.center "Klik op de link om de onderstaande quiz' om te spelen: " ]
                   [:div.center [:p "<a href='/quiz'>Facebook quiz</a>"]]
-                  [:div.footer [:p.verticalcenter "<a href='https://github.com/heijmen/clojurequiz'>Link naar Github</a> ----- <a href='http://strong-ice-2686.herokuapp.com/hey'>Link naar Herokuapp</a>"]]
+                  [:div.footer [:p.verticalcenter "<a href='https://github.com/heijmen/clojurequiz'>Link naar Github</a> ----- <a href='http://clojurequiz.herokuapp.com/quiz'>Link naar Herokuapp</a>"]]
                    )))
                      
